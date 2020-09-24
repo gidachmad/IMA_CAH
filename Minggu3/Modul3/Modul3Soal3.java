@@ -26,7 +26,7 @@ class Modul3Soal3{
     System.out.println("Sisa dari hasil pembagiannya adalah " + (bilBulat1 % bilBulat2));
 
     //bagian bilangan pecahan
-    System.out.print("Sekarang silakan masukan satu bilangan pecahan: ");
+    System.out.print("\nSekarang silakan masukan satu bilangan pecahan: ");
     double bilPecahan = input.nextDouble();
     System.out.println("Sekarang kami akan mengoperasikan bilangan pecahan dengan bilangan bulat yang sudah anda input.\nBilangan mana yang anda ingin gunakan? \n" + bilBulat1 + " atau " + bilBulat2 + "?");
     int bilBulat = input.nextInt();
@@ -43,9 +43,9 @@ class Modul3Soal3{
     System.out.println("Sisa dari hasil pembagiannya adalah " + (bilBulat % bilPecahan));
 
     //bagian boolean
-    System.out.println("Sekarang kami akan menunjukan operasi boolean\nSilakan pilih satu antara \'True\' atau \'False\'");
+    System.out.println("\nSekarang kami akan menunjukan operasi boolean\nSilakan pilih satu pernyataan antara \'true\' atau \'false\' ");
     boolean pernyataan1 = input.nextBoolean();
-    System.out.println("Sekarang pilih salah satu antara \'True\' atau \'False\' untuk dilakukan operasi dengan pernyataan sebelumnya");
+    System.out.println("Sekarang pilih salah satu pernyataan antara \'true\' atau \'false\' untuk dilakukan operasi dengan pernyataan sebelumnya ");
     boolean pernyataan2 = input.nextBoolean();
 
     System.out.println("Apabila menggunakan operator AND akan menghasilkan nilai \'"+(pernyataan1 && pernyataan2)+"\'");
