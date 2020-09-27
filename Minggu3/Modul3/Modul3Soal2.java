@@ -1,7 +1,3 @@
-// Program ini untuk menghitung jumlah penumpang
-// yang tertera pada soal
-// program untuk menghitung secara otomatis ada di
-// Modul3Soal2_1
 class Modul3Soal2 {
   public static void main(String[] args) {
     //hitung jumlah uang saku
